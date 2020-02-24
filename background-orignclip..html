@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+	<head>
+		<title>background-origin,background-clip </title>
+		<style>
+			#div1{
+				height:300px;
+				margin:30px;
+				background-image:url('images/2.jpg');
+				border:10px dotted red;
+				background-origin:border-box;
+			}
+			#div2{
+				height:300px;
+				margin:30px;
+				background-image:url('images/2.jpg');
+				border:10px dotted red;
+				background-origin:padding-box;
+				padding:50px;
+				background-repeat:no-repeat;
+			}			
+			#div3{
+				height:300px;
+				margin:30px;
+				background-image:url('images/2.jpg');
+				border:10px dotted red;
+				background-origin:content-box;
+				padding:50px;
+				background-repeat:no-repeat;
+			}
+			#div4{
+				height:300px;
+				margin:30px;
+				background-color:yellow;
+				border:10px dotted red;
+				background-clip:border-box;
+			}
+			#div5{
+				height:300px;
+				margin:30px;
+				background-color:yellow;
+				border:10px dotted red;
+				background-clip:padding-box;
+				padding:30px;
+			}#div6{
+				height:300px;
+				margin:30px;
+				background-color:yellow;
+				border:10px dotted red;
+				background-clip:content-box;
+				padding:30px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<h3>
+			background-origin is applied along with backgroung-images
+		</h3>
+		<div id="div1">
+			background-origin:border-box; image started with edge of border
+		</div>
+		<div id="div2">
+			background-origin:padding-box; image started with edge of padding
+		</div>
+		<div id="div3">
+			background-origin:content-box; image started with edge of contact
+		</div>
+		
+		
+		
+		<hr>
+		<h3> background-clip is used along with background-color</h3>
+		<div id="div4">
+			background-clip:boder-box ;color starts edge of the border
+		</div>
+		<div id="div5">
+			background-clip:padding-box ;color starts edge of the border
+		</div>
+		<div id="div6">
+			background-clip:content-box ;color starts edge of the border
+		</div>
+	</body>
+</html>

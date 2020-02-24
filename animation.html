@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+	<head>
+		<title>animation </title>
+		<style>
+			#div1{
+				height:100px;
+				width:100px;
+				border:2px solid blue;
+				position:relative;
+				-webkit-animation:mydiv 3s;
+				animation:mydiv 3s infinate;
+			}
+			@keyframes mydiv
+			{
+					0%{background-color:red;left:200px;top:0px;}
+					30%{background-color:yellow;left:200px;top:100px;}
+					60%{background-color:blue;left:200px;top:150px;}
+					90%{background-color:green;left:100px;top:150px;}
+					100%{background-color:pink;left:0px;top:0px;}
+			}
+			@-webkit-keyframes mydiv
+			{
+					0%{background-color:red;left:200px;top:0px;}
+					30%{background-color:yellow;left:200px;top:100px;}
+					60%{background-color:blue;left:200px;top:150px;}
+					90%{background-color:green;left:100px;top:150px;}
+					100%{background-color:pink;left:0px;top:0px;}
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="div1"></div>
+	</body>
+</html>

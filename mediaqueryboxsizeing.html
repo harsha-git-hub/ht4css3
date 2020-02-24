@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+	<head>
+		<title>media qeury box-sizing</title>
+		<style>
+			body
+			{
+				background-color:blue;
+				color:yellow;
+				
+			}
+			#div1
+			{
+				height:100px;
+				width:100px;
+				padding:50px;
+				border:5px solid green;
+				
+			}
+			
+			@media screen and (min-width: 480px)
+			{
+			body
+			{
+				background-color:red;
+				color:yellow;
+				
+			}
+			#div1
+			{
+				height:100px;
+				width:100px;
+				padding:50px;
+				border:5px solid green;
+				box-sizing:border-box;
+			
+			}
+			
+		</style>
+	</head>
+	<body>
+	<h1>Media query</h1>
+	
+		<div id="div1"></div>
+	</body>
+</html>

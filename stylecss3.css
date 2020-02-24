@@ -1,0 +1,125 @@
+*{
+	padding:0px;
+	margin:0px;
+	
+}
+
+
+header,footer{
+	padding:35px;
+	background:linear-gradient(40deg,IndianRed,LightCoral,Salmon);
+}
+#subheader{
+	padding:20px;
+	background-color:ghostwhite;
+	
+}
+#subheader>h3{
+	text-align:center;
+	text-transform:uppercases;
+}
+#left{
+	float:left;
+	color:seashell;
+	margin-top:-20px;
+	font-size:17px;
+}
+#right{
+	float:right;
+	color:seashell;
+	margin-top:-20px;
+	font-size:17px;
+}
+#right>a{
+		color:seashell;
+		font-size:17px;
+		
+}
+#slider{
+	height:300px;
+	background-image:url('images/1.jpg'),url('images/3.jpg'),url('images/4.jpg'),url('images/5.gif'),url('images/2.jpg');
+	background-position:left top,right top,right bottom,left bottom,left top;
+	background-repeat:no-repeat,no-repeat,no-repeat,no-repeat,repeat;
+	background-size:100px 100px,100px 100px,100px 100px, 100px 100px,cover;
+}
+nav{
+	padding:35px;
+	background:linear-gradient(40deg,IndianRed,LightCoral,Salmon);
+	text-align:center;
+}
+nav ul li{
+	display:inline-block;
+	height:50px;
+	width:135px; 	
+	padding:5px;
+	-webkit-transition:background 3s;
+	transition:background 3s;
+}
+li>a{
+	text-decoration:none;
+	margin-left:15px;
+	color:seashell;
+	font-size:20px;
+	font-weight:bold;
+	-webkit-transition:text-decoration 3s,color 3s;
+	transition:text-decoration 3s,color 3s;
+	line-height:-29px;
+}
+li>a:hover{
+	text-decoration:underline;
+	color:OrangeRed;
+}
+
+nav ul li:hover{
+	background:linear-gradient(-40deg,papaywhip,peachpuff,moccasin);
+	color:OrangeRed;
+}
+#about,#success{
+		padding:100px;
+		background-color:ghostwhite;
+		overflow:auto;
+	
+}
+#about>h3,#success>h3{
+		padding:10px;
+}
+#about>h3::first-letter{
+	color:red;ange
+	font-size:22px;
+}
+#about>article{
+	line-height:40px;
+	font-size:18px;
+	font-family:sans-serif;
+	column-count:2;
+	text-align:justify;
+	border:12px solid red;
+	outline:5px ridge blue;
+	padding:15px;
+	
+}
+#success>figure{
+	height:200px;
+	width:200px;
+	border:2px solid transparent;
+	float:left;
+	margin:20px;
+}
+figure>img{
+	height:150px;
+	width:150px;
+	margin:25px;
+	-webkit-transition:width 2s,height 2s;
+	transition:width 2s,height 2s;
+	
+}
+figcaption{
+	text-align:center;
+	text-transform:uppercase;
+	
+	
+}
+figure>img:hover{
+	width:200px;
+	height:200px;
+}

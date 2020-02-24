@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title>flexbox </title>
+		
+		<style>
+			#container
+			{
+				height:500px;
+				display:flex;
+				background-color:skyblue;
+				justify-content:space-around;
+				
+			}
+			.div1
+			{
+				height:100px;
+				width:100px;
+				border:5px solid blue;
+				background-color:yellow;
+				margin:10px;
+				line-height:60px;
+				color:blue;
+				font-weight:bold;
+				text-align:center;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<div class="div1" style="flex-shrink:0;align-self:flex-end">1</div>
+			<div class="div1" style="flex-shrink:0;align-self:center">2</div>
+			<div class="div1">3</div>
+			<div class="div1" style="flex-shrink:0;align-self:center">4</div>
+			<div class="div1" style="flex-shrink:0;align-self:flex-end">5</div>
+			
+		</div><!---container closes------->
+	</body>
+</html>

@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+	<head>
+		<title>
+			2d & 3d transforms methods
+		</title>
+		<style>
+			div{
+				height:100px;
+				width:100px;
+				border:12px solid black;
+				margin:25px;
+				line-height:60px;
+				text-align:center;
+			}
+			div#div1{
+				background-color:yellow;
+				-web-transition:transform 3s;
+				transition:transform 3s;
+			
+			}
+			div#div1:hover{
+				web-transform:translate(300px,100px);
+				transform:translate(300px,100px);
+			}
+			div#div2{
+				background-color:blue;
+				-web-transition:transform 3s;
+				transition:transform 3s;
+			
+			}
+			div#div2:hover{
+				web-transform:rotate(60deg);
+				transform:rotate(60deg);
+			}
+			div#div3{
+				background-color:red;
+				-web-transition:transform 3s;
+				transition:transform 3s;
+				margin:auto;
+			
+			}
+			div#div3:hover{
+				web-transform:scale(2,2);
+				transform:scale(2,2);
+			}	
+			div#div4{
+				background-color:violet;
+				-web-transition:transform 3s;
+				transition:transform 3s;
+				
+			
+			}
+			div#div4:hover{
+				web-transform:skewX(80deg);
+				transform:skewX(80deg);
+			}	
+			div#div5{
+				background-color:green;
+				-web-transition:transform 3s;
+				transition:transform 3s;
+				
+			
+			}
+			div#div5:hover{
+				web-transform:skewY(80deg);
+				transform:skewY(80deg);
+			}
+			div#div6{
+				background-color:pink;
+				-web-transition:transform 3s;
+				transition:transform 3s;
+				
+			
+			}
+			div#div6:hover{
+				web-transform:skew(80deg,80deg);
+				transform:skew(80deg,80deg);
+			}
+			div#div7{
+				background-color:pink;
+				-web-transition:transform 3s;
+				transition:transform 3s;
+				
+			
+			}
+			div#div7:hover{
+				web-transform:rotateX(180deg);
+				transform:rotateX(180deg);
+			}
+			div#div8{
+				background-color:lightgreen;
+				-web-transition:transform 3s;
+				transition:transform 3s;
+				
+			
+			}
+			div#div8:hover{
+				web-transform:rotateY(180deg);
+				transform:rotateY(180deg);
+			}
+			div#div9{
+				background-color:voilet;
+				-web-transition:transform 3s;
+				transition:transform 3s;
+				
+			
+			}
+			div#div9:hover{
+				web-transform:rotateZ(180deg);
+				transform:rotateZ(180deg);
+			}
+		</style>
+	</head>
+	<body>
+		<h3>2d transform Methods</h3>
+		<div id="div1">
+			translate()
+		</div>
+		<div id="div2">
+			rotate()
+		</div>
+		<div id="div3">
+			scale
+		</div>
+		<div id="div4">
+			skewX()
+		</div>
+		<div id="div5">
+			skewY()
+		</div>
+		<div id="div6">
+			skew()
+		</div>
+		
+		<hr>
+		<h3>3d methods</h3>
+			<div id="div7">rotateX()</div>
+			<div id="div8">rotateY()</div>
+			<div id="div9">rotateZ()</div>
+	</body>
+</html>
